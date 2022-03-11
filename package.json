@@ -1,0 +1,23 @@
+{
+  "name": "coincoin",
+  "version": "1.0.0",
+  "description": "Post a random cat gif.",
+  "main": "index.js",
+  "author": "Mathieu Soula",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-nodemon": "^2.5.0"
+  }
+}
